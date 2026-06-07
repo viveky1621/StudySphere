@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 final dioProvider = Provider((ref) => Dio(BaseOptions(
-      baseUrl: 'http://10.246.176.191:3000/api', // PC Local IP for physical device testing
+      baseUrl: 'https://studysphere-wehg.onrender.com/api', // Production Cloud Backend
       connectTimeout: const Duration(seconds: 5),
     )));
 
